@@ -1,0 +1,32 @@
+.search-container header {
+  padding: 10px;
+  justify-content: center;
+}
+
+.search-container form {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.search-container input {
+  width: 100% !important;
+  color: #fff;
+  background-color: #f55;
+  border: none;
+}
+
+.search-container ::-webkit-input-placeholder {
+   color: #fff !important;
+}
+
+.search-container :-moz-placeholder { /* Firefox 18- */
+   color: #fff !important;
+}
+
+.search-container ::-moz-placeholder {  /* Firefox 19+ */
+   color: #fff !important;
+}
+
+.search-container :-ms-input-placeholder {
+   color: #fff !important;
+}

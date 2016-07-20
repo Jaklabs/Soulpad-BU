@@ -1,0 +1,120 @@
+html, body {
+	display: flex;
+	flex-direction: column;
+}
+body {
+	left: 0;
+	margin: 0;
+	position: relative;
+}
+a, a:hover, a:visited, a:active  {
+	color: inherit;
+	text-decoration: none;
+}
+/*Searchbar*/
+.searchbar {
+	background-color: #fff;
+	padding: 5px;
+	top: -40px;
+	position: fixed;
+}
+.searchbar button {
+	background-color: #ddd;
+}
+.searchbar input {
+	background-color: #ddd;
+}
+/*Sidebar*/
+.sidebar {
+	left: -250px;
+	height: 100%;
+	position: fixed;
+	width: 250px;
+	background-color: #fff;
+	padding: 20px;
+}
+.sidebar div {
+	display: flex;
+}
+.sidebar p {
+	font-size: 15px;
+	margin-left: 20px;
+}
+.sidebar span {
+	color: #444;
+}
+/*Header*/
+header {
+	display: flex;
+	padding: 10px;
+	padding-left: 20px;
+	align-items: center;
+	background-color: #f00;
+	color: #fff;
+	margin: 0 auto;
+	width: 100% !important;
+	position: fixed;
+	z-index: 100;
+}
+header .glyphicon {
+	font-size: 18px;
+}
+header .glyphicon-menu-hamburger {
+	margin: 20px;
+}
+header .row {
+	display: flex;
+	width: 100%;
+}
+header .row .col-sm-8 {
+	display: flex;
+}
+header ul {
+	padding: 10px !important;
+	color: #000;
+}
+nav {
+	float: right;
+	margin-top: 10px;
+}
+nav .glyphicon {
+	margin: 10px;
+}
+
+/*Section*/
+section {
+	justify-content: center;
+	position: relative;
+	top: 90px
+}
+.posts {
+	display: flex;
+	flex-wrap: wrap;
+	width: 60%;
+	margin: 0 auto;
+}
+.post {
+	margin: 10px;
+	padding: 10px;
+	width: 100%;
+}
+.post pre {
+	background-color: inherit;
+	font: inherit;
+	border: none;
+}
+.new {
+	height: 60px;
+	width: 60px;
+	border-radius: 30px;
+	background-color: #f00;
+	color: #fff;
+	position: fixed;
+	bottom: 5%;
+	right: 5%;
+	padding: 15px;
+	font-size: 24px;
+}
+.new span {
+	margin: auto;
+}

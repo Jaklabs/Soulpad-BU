@@ -1,0 +1,25 @@
+.login-container, .reg-container {
+  width: 80%;
+  margin: auto;
+}
+.login-container h3, .reg-container h3 {
+  text-align: center;
+  font-family: cursive;
+}
+.login-container .form-outer, .reg-container .form-outer {
+  margin: 30px;
+  padding: 20px;
+}
+.login-container button, .reg-container button {
+  width: 100%;
+}
+.login-container .reg-link {
+  clear: both;
+  margin: auto;
+}
+.login-container p, .reg-container p {
+  text-align: center;
+}
+.login-container a, .reg-container a {
+  color: #06f;
+}
